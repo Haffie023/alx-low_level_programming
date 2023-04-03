@@ -8,15 +8,15 @@
  */
 char *_strchr(char *s, char c);
 {
-	if (*s == '\0')
-		return (s);
-	while (*s)
+
+	char *s = "hello";
+	char *c;
+
+	c = _strchr(s, 'l');
+
+	if (c != NULL)
 	{
-		if (*s == c)
-		return (s);
-		s++;
+		printf("%s\n", c);
 	}
-	if (c == '\0')
-		return (s);
-	return ('\0');
+	return (0);
 }
