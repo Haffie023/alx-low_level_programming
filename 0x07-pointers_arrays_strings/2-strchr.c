@@ -9,7 +9,7 @@
 char *_strchr(char *s, char c);
 {
 
-	char *s = "hello";
+	char *s;
 	char *c;
 
 	c = _strchr(s, 'l');
