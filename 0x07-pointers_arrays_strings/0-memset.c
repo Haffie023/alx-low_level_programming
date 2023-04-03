@@ -7,7 +7,6 @@
  * @n: the third value
  * Return: value of char
  */
-
 char *_memset(char *s, char b, unsigned int n);
 {
 	unsigned int i = 0;
