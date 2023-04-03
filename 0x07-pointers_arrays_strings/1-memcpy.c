@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _memcpy - a function that copies a memory area
- * @n: area size
- * @src: memory source
- * @dest: memory destination
- * Return: pointer to dest
+ *_memcpy - function that copies memory area
+ * @dest: the address of memory to print
+ * @src: second value
+ * @n: third value
+ *Return: char with result of memset
  */
 char *_memcpy(char *dest, char *src, unsigned int n);
 {
