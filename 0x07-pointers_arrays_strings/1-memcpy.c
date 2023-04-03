@@ -1,19 +1,19 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
- *_memcpy - function that copies memory area
- * @dest: the address of memory to print
- * @src: source of memory
- * @n: number of bytes
- *Return: char with result of memset
- */
-char *_memcpy(char *dest, char *src, unsigned int n);
+* _memcpy - a function that copies a memory area
+* @dest: the destination buffer
+* @src: the source buffer
+* @n: third value
+* Return: returns pointer to dest
+*/
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
-	for(;i < n; i = 0; i++);
+	for (i = 0; i < n; i++)
 	{
 		dest[i] = src[i];
 	}
-	return (s)
+	return (dest);
 }
