@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * main - entry point
  * @argc: number of arguments passed to the function.
